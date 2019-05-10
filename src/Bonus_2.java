@@ -29,7 +29,7 @@ public class Bonus_2 {
             }
             //if i++ and i=i+1  --->exception will be thrown every time...
             for (int i = 0; i < args.length; i=i+2) {
-            //accept i and i + 1 - otherwise go to catch
+            //accept i and i + 2 - otherwise go to catch
                 System.out.println("The area with the given parameters is "+calculateRectArea(params[i], params[i+1])+"m2.");
             }
         } catch (Exception e) {
