@@ -4,28 +4,21 @@ as well as 40cm (width2) and 50cm (height2)*/
 
     public class method_calculateRectArea {
 
-        public static void calculateRectArea (int width1, int height1){
+        public static int calculateRectArea (int width1, int height1){
             int rectangular = width1 * height1;
-            System.out.println("The Area of the rectangular is " + rectangular);
-        }
-        public static void calculateRectArea2 (int width2, int height2){
-            int rectangular2 = width2 * height2;
-            System.out.println("The Area of the second rectangular  is " + rectangular2);
+            return(rectangular);
 
         }
-
         public static void main (String[] args) {
-            int width1 = 20;
-            int height1 = 30;
 
-            calculateRectArea(width1,height1);
-
-            int width2 = 40;
-            int height2 = 50;
-
-            calculateRectArea2(width2,height2);
-
+            int width1 =30;  int height1 = 20;
+            int width2 = 40; int height2 = 50;
+            int width3 = 10; int height3 = 20;
+            int width4 = 5; int height4 = 3;
+            System.out.println("The area of the Rectangular is "+calculateRectArea(width1,height1)+ "cm2");
+            System.out.println("The area of the Rectangular is "+calculateRectArea(width2,height2)+ "cm2");
+            System.out.println("The area of the Rectangular is "+calculateRectArea(width3,height3)+ "cm2");
+            System.out.println("The area of the Rectangular is "+calculateRectArea(width4,height4)+ "cm2");
         }
-
     }
 
